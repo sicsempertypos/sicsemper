@@ -66,18 +66,18 @@ body {
 	top: 80%; left: 17%;
 	font-size: .6em;
 }
-/*
+
 .main-scroll {
 	font-family: 'Nothing You Could Do', cursive;
 	font-size: 1.7em;
 	line-height: 1.3em;
-	padding: 10px 8px;
+/*	padding: 10px 8px;
 	margin: 10px 0px;
 	background-image: url('../images/Scroll Vertical.png') no-repeat;
 	background-position: 50% 50%;
-	position: relative;
+	position: relative;*/
 	}
-
+/*
 .main-scroll .p1 { 
 	text-align: center;
 	position: absolute;
@@ -125,7 +125,7 @@ body {
 	margin-right: 20%;
 	top: 64%;
 	}
-
+*/
 .contactform {
 	font-family: 'Nothing You Could Do', cursive;
 	font-size: 1.7em;
@@ -136,7 +136,7 @@ body {
 	background-position: 50% 50%;
 	position: relative;
 	}
-/*
+
 .formgroupname {
 	text-align: center;
 	position: absolute;
@@ -144,7 +144,6 @@ body {
 	margin-right: 10%;
 	top: 15%
 	}
-*/
 
 .content {
 	display:flex;
@@ -153,7 +152,7 @@ body {
 	
 .row {
 	display:flex;
-	flex:0 0 50%;
+	flex:0 0 100%;
 	flex-direction:row;
 	justify-content: center;
 	align-items:flex-start;
@@ -168,21 +167,23 @@ body {
 	align-items:center;
 	flex-wrap:wrap;
 	height:150%;
-	width: 120%;
+	width: 100%;
 }
+
 
 .cell {
 	flex-basis:75%;
 	justify-content:center;
 	align-content:stretch;
 	height: 100px;
+	width: 100%;
 }
 
-.john {
+.john {/*
 	flex-basis: 25%;
 	justify-content:center;
 	align-content: stretch;
-	height: 100px;
+	height: 100px;*/
 }
 
 .vert {
@@ -190,11 +191,20 @@ body {
 	justify-content: center;
 	align-content: center;
 	height:100%;
-	background-image: url('../images/Scroll Vertical.png') no-repeat;
+	background-image: url('../images/Scroll Vertical.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.para-scrollbar {
+	flex-basis:75%;
+	height: 120px;
+	opacity: 0;
 }
 
 .img {
-	max-width: 60%;
+	max-width: 40%;
+	float: right;
 }
 	
 #fontepic {
@@ -220,14 +230,14 @@ body {
 	text-align: center;
 	}
 
-#sidebar , #ido{
+#sidebar , #ido, #john{
     font-family: 'sf_foxboro_scriptregular';
 	font-size: 1.75em;
 }
 
-#john {
+.john {
 	float: right;
-	max-width: 50%;
+	max-width: 30%;
 	margin: 10px;
 	}
 
