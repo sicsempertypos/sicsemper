@@ -2,8 +2,8 @@ body {
 	margin-top:50px;
 	background: url('../images/marble.jpg') no-repeat center top scroll;
 	}
-/*
-	.banner {
+
+.banner {
 	font-family: 'atlas_of_the_magiregular', cursive;
 	font-size: 1.7em;
 	line-height: 1.3em;
@@ -34,31 +34,39 @@ body {
 
 .banner h4{
 	position: absolute;
-	top:20%; left:8%;
-	font-size: 1.3em;
+	top:20%; left:10%;
+	font-size: 1em;
 	}
 
 
-.banner p{
+.banner h1 p{
 	position: absolute;
-	top: 60%; left: 32%;
+	font: red;
+	top: 80%; left: 20%;
+	font-size: .5em;
 }
 
-.banner p{
+.banner  h2 p{
 	position: absolute;
-	top: 60%; left: 32%;
+	font: red;
+	top: 83%; left: 22%;
+	font-size: .5em;
 }
 
-.banner p{
+.banner h3 p{
 	position: absolute;
-	top: 60%; left: 32%;
+	font: red;
+	top: 85%; left: 20%;
+	font-size: .5em;
 }
 
-.banner p{
+.banner h4 p{
 	position: absolute;
-	top: 60%; left: 32%;
+	font: red;
+	top: 80%; left: 17%;
+	font-size: .6em;
 }
-
+/*
 .main-scroll {
 	font-family: 'Nothing You Could Do', cursive;
 	font-size: 1.7em;
@@ -164,21 +172,21 @@ body {
 }
 
 .cell {
-	flex-basis:35%;
+	flex-basis:75%;
 	justify-content:center;
 	align-content:stretch;
 	height: 100px;
 }
 
 .john {
-	flex-basis: 35%;
+	flex-basis: 25%;
 	justify-content:center;
 	align-content: stretch;
 	height: 100px;
 }
 
 .vert {
-	flex-basis: 65%;
+	flex-basis: 75%;
 	justify-content: center;
 	align-content: center;
 	height:100%;
