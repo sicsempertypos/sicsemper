@@ -160,6 +160,21 @@ body {
 	height:100px;
 }
 
+ul {
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	list-style: none;
+	max-width: 80%;
+	padding-left:20%;
+}
+
+li {
+	max-width: 80%;
+	item-align: center;
+	font-size: 1em;
+}
+/*
 .para {
 	display: flex;
 	flex-direction:column;
@@ -169,7 +184,7 @@ body {
 	height:150%;
 	width: 100%;
 }
-
+*/
 
 .cell {
 	flex-basis:75%;
@@ -198,7 +213,7 @@ body {
 
 .para-scrollbar {
 	flex-basis:75%;
-	height: 120px;
+	height: 100px;
 	opacity: 0;
 }
 
