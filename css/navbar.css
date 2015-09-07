@@ -1,0 +1,27 @@
+.navcell {
+	display:flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.navcell a {
+	
+}
+.navbar-brand {
+	flex-grow:1;
+}
+
+.navbar-toggle {
+	
+}
+
+.navbar-collapse {
+	display: flex;
+	flex-grow:4;
+}
+
+.navbar-form {
+	display: flex;
+	justify-content: flex-end;
+	flex-grow: 1;
+}
