@@ -78,6 +78,10 @@ body {
 	line-height: 1.3em;
 } 
 
+.navbar-brand a {
+	color:#550000;
+}
+
 .contactform {
 	font-family: 'Nothing You Could Do', cursive;
 	font-size: 1.7em;
